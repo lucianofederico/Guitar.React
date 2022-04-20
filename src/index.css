@@ -1,0 +1,30 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css";
+
+
+/* Botones para reutilizar en la página*/ 
+@import "./templates/buttons.css";
+@import "./templates/details.css";
+@import "./templates/cart.css";
+@import "./templates/listItem.css";
+@import "./templates/text.css";
+@import "./templates/searchbar.css";
+@import "./templates/tiles.css";
+@import "./templates/home.css";
+@import "./templates/card.css";
+@import "./templates/dropdown.css"; 
+@import "./templates/slideShow.css"; 
+@import "./templates/navbar.css";
+@import "./templates/userAdmin.css";
+
+body {
+   background-color: #DFE0DF;
+}
+
+.foot {
+   margin-top: 20px;
+   height: 30px;
+}
+
+
+

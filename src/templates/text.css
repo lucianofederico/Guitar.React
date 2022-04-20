@@ -1,0 +1,39 @@
+
+ /* url("https://images8.alphacoders.com/636/636629.jpg") */
+
+#Jimi {
+  /* background: rgb(0, 0, 0);
+  background-position: right; */
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  text-align: left;
+
+  position: absolute;
+  padding: 14.5em 0;
+  margin: 0em 0 0 0; /* margen superior */
+  z-index: 1;
+}
+
+#Jimi header {
+  background-color: rgba(34, 30, 31, 0.5);
+  display: inline-block;
+  padding: 2.5em 5em;
+  border-radius: 10px;
+}
+
+#Jimi header h2 {
+  color: rgb(255, 255, 255, 0.5);
+  font-weight: 900;
+  font-style: normal;
+  font-size: 2.5em;
+  margin: 0 0 0.65em 0;
+}
+
+#Jimi header p {
+  color: rgb(213, 35, 73, 1);
+  padding: 0;
+  font-style: normal;
+  margin: 0;
+  font-size: 5em;
+}
+

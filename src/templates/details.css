@@ -1,0 +1,107 @@
+  .heard-details{
+    display: flex;
+    padding: 2rem;
+  }
+
+  .buttonCompra {
+    --color: #00A97F;
+    padding: 0.8em 1.7em;
+    background-color: transparent;
+    border-radius: .3em;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 400;
+    font-size: 17px;
+    border: 1px solid;
+    font-family: inherit;
+    color: var(--color);
+    z-index: 1;
+    margin-right: 20px;
+    height: 38px;
+
+   }
+   
+   .buttonCompra::before, .buttonCompra::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: var(--color);
+    transition: 1s ease;
+   }
+   
+   .buttonCompra::before {
+    top: -1em;
+    left: -1em;
+   }
+   
+   .buttonCompra::after {
+    left: calc(100% + 1em);
+    top: calc(100% + 1em);
+   }
+   
+   .buttonCompra:hover::before, .buttonCompra:hover::after {
+    height: 410px;
+    width: 410px;
+   }
+   
+   .buttonCompra:hover {
+    color: rgb(10, 25, 30);
+   }
+   
+   .buttonCompra:active {
+    filter: brightness(.8);
+   }
+
+   .description-product{
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 10px 10px 25px #bebebe,
+                -10px -10px 25px #ffffff;
+    flex-direction: column;
+    
+   }
+   
+   .body-details{
+     padding: 1rem;
+   }
+
+   .description-adiconal{
+    padding: 1rem;
+   }
+
+   .carritoStyle{
+     display: flex;
+   }
+
+   .comentarios{
+     text-align: center;
+     border: solid grey 5px;
+     width: 50%;
+
+     justify-content: center;
+     align-items: center;
+   }
+
+   .linea{
+     border-bottom: 4px solid white;
+   }
+
+   .letras{
+     margin-left: 15px;
+     color: #151817
+   }
+
+   .opiniones{
+     width: 100%;
+     overflow: scroll;
+     height: 16em;
+     margin: 15px
+   }

@@ -1,0 +1,16 @@
+.tarjeta {
+   position: fixed;
+   width: 320px;
+   top: 90px;
+   right: 20px;
+   z-index: 10;
+}
+
+.tarjetafindecompra {
+   position: fixed;
+   width: 320px;
+   top: 190px;
+   right: 800px;
+   z-index: 10;
+   height: 150px;
+}
